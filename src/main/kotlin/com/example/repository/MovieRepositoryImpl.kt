@@ -22,7 +22,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 1,
             title = "재벌집 막내아들",
-            image = "/images/movies/reborn_rich.jpg",
+            image = "/movies/reborn_rich.jpg",
             openingDate = "2022",
             genre = listOf(
                 "드라마",
@@ -46,21 +46,21 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 1,
                     name = "송중기",
-                    image = "/images/actors/song_joong_ki.jpg",
+                    image = "/actors/song_joong_ki.jpg",
                     age = 37,
                     birthDate = "1985년 9월 19일"
                 ),
                 Actor(
                     id = 2,
                     name = "이성민",
-                    image = "/images/actors/lee_sung_min.jpg",
+                    image = "/actors/lee_sung_min.jpg",
                     age = 54,
                     birthDate = "1968년 12월 4일"
                 ),
                 Actor(
                     id = 3,
                     name = "신현빈",
-                    image = "/images/actors/shin_hyun_been.jpg",
+                    image = "/actors/shin_hyun_been.jpg",
                     age = 36,
                     birthDate = "1986년 4월 10일"
                 )
@@ -72,7 +72,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 2,
             title = "웬즈데이",
-            image = "/images/movies/wednesday.jpg",
+            image = "/movies/wednesday.jpg",
             openingDate = "2022",
             genre = listOf(
                 "미스터리",
@@ -88,21 +88,21 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 4,
                     name = "제나 오르테가",
-                    image = "/images/actors/jenna_ortega.jpg",
+                    image = "/actors/jenna_ortega.jpg",
                     age = 20,
                     birthDate = "2002년 9월 27일"
                 ),
                 Actor(
                     id = 5,
                     name = "그웬돌린 크리스티",
-                    image = "/images/actors/gwendoline_christie.jpg",
+                    image = "/actors/gwendoline_christie.jpg",
                     age = 44,
                     birthDate = "1978년 10월 28일"
                 ),
                 Actor(
                     id = 6,
                     name = "헌터 두한",
-                    image = "/images/actors/hunter_doohan.jpg",
+                    image = "/actors/hunter_doohan.jpg",
                     age = 28,
                     birthDate = "1994년 1월 19일"
                 )
@@ -114,7 +114,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 3,
             title = "그 해 우리는",
-            image = "/images/movies/our_beloved_summer.jpg",
+            image = "/movies/our_beloved_summer.jpg",
             openingDate = "2021",
             genre = listOf(
                 "로맨틱",
@@ -131,21 +131,21 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 7,
                     name = "최우식",
-                    image = "/images/actors/choi_woo_shik.jpg",
+                    image = "/actors/choi_woo_shik.jpg",
                     age = 32,
                     birthDate = "1990년 3월 26일"
                 ),
                 Actor(
                     id = 8,
                     name = "김다미",
-                    image = "/images/actors/kim_da_mi.jpg",
+                    image = "/actors/kim_da_mi.jpg",
                     age = 27,
                     birthDate = "1995년 4월 9일"
                 ),
                 Actor(
                     id = 9,
                     name = "김성철",
-                    image = "/images/actors/kim_sung_cheol.jpg",
+                    image = "/actors/kim_sung_cheol.jpg",
                     age = 30,
                     birthDate = "1991년 12월 31일"
                 )
@@ -160,7 +160,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 4,
             title = "동백꽃 필 무렵",
-            image = "/images/movies/when_the_camellia_blooms.jpg",
+            image = "/movies/when_the_camellia_blooms.jpg",
             openingDate = "2019",
             genre = listOf(
                 "로맨스",
@@ -177,21 +177,21 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 10,
                     name = "공효진",
-                    image = "/images/actors/kong_hyo_jin.jpg",
+                    image = "/actors/kong_hyo_jin.jpg",
                     age = 42,
                     birthDate = "1980년 4월 4일"
                 ),
                 Actor(
                     id = 11,
                     name = "강하늘",
-                    image = "/images/actors/kang_ha_neul.jpg",
+                    image = "/actors/kang_ha_neul.jpg",
                     age = 32,
                     birthDate = "1990년 2월 21일"
                 ),
                 Actor(
                     id = 12,
                     name = "김지석",
-                    image = "/images/actors/kim_ji_seok.jpg",
+                    image = "/actors/kim_ji_seok.jpg",
                     age = 41,
                     birthDate = "1981년 4월 21일"
                 )
@@ -203,7 +203,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 5,
             title = "부부의 세계",
-            image = "/images/movies/the_world_of_the_married.jpg",
+            image = "/movies/the_world_of_the_married.jpg",
             openingDate = "2020",
             genre = listOf(
                 "드라마",
@@ -220,21 +220,21 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 13,
                     name = "김희애",
-                    image = "/images/actors/kim_hee_ae.jpg",
+                    image = "/actors/kim_hee_ae.jpg",
                     age = 55,
                     birthDate = "1967년 4월 23일"
                 ),
                 Actor(
                     id = 14,
                     name = "박해준",
-                    image = "/images/actors/park_hae_jun.jpg",
+                    image = "/actors/park_hae_jun.jpg",
                     age = 46,
                     birthDate = "1976년 6월 14일"
                 ),
                 Actor(
                     id = 15,
                     name = "한소희",
-                    image = "/images/actors/han_so_hee.jpg",
+                    image = "/actors/han_so_hee.jpg",
                     age = 28,
                     birthDate = "1994년 11월 18일"
                 )
@@ -246,7 +246,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 6,
             title = "수리남",
-            image = "/images/movies/narco_saints.jpg",
+            image = "/movies/narco_saints.jpg",
             openingDate = "2022",
             genre = listOf(
                 "범죄",
@@ -264,35 +264,35 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 16,
                     name = "하정우",
-                    image = "/images/actors/ha_jung_woo.jpg",
+                    image = "/actors/ha_jung_woo.jpg",
                     age = 44,
                     birthDate = "1978년 3월 11일"
                 ),
                 Actor(
                     id = 17,
                     name = "황정민",
-                    image = "/images/actors/hwang_jung_min.jpg",
+                    image = "/actors/hwang_jung_min.jpg",
                     age = 52,
                     birthDate = "1970년 9월 1일"
                 ),
                 Actor(
                     id = 18,
                     name = "박해수",
-                    image = "/images/actors/park_hae_soo.jpg",
+                    image = "/actors/park_hae_soo.jpg",
                     age = 41,
                     birthDate = "1981년 11월 21일"
                 ),
                 Actor(
                     id = 19,
                     name = "조우진",
-                    image = "/images/actors/jo_woo_jin.jpg",
+                    image = "/actors/jo_woo_jin.jpg",
                     age = 43,
                     birthDate = "1979년 1월 16일"
                 ),
                 Actor(
                     id = 20,
                     name = "유연석",
-                    image = "/images/actors/yoo_yeon_seok.jpg",
+                    image = "/actors/yoo_yeon_seok.jpg",
                     age = 38,
                     birthDate = "1984년 4월 11일"
                 )
@@ -307,7 +307,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 7,
             title = "오징어 게임",
-            image = "/images/movies/squid_game.jpg",
+            image = "/movies/squid_game.jpg",
             openingDate = "2021",
             genre = listOf(
                 "데스 게임",
@@ -324,56 +324,56 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 21,
                     name = "이정재",
-                    image = "/images/actors/lee_jung_jae.jpg",
+                    image = "/actors/lee_jung_jae.jpg",
                     age = 50,
                     birthDate = "1972년 12월 15일"
                 ),
                 Actor(
                     id = 18,
                     name = "박해수",
-                    image = "/images/actors/park_hae_soo.jpg",
+                    image = "/actors/park_hae_soo.jpg",
                     age = 41,
                     birthDate = "1981년 11월 21일"
                 ),
                 Actor(
                     id = 22,
                     name = "위하준",
-                    image = "/images/actors/wi_ha_jun.jpg",
+                    image = "/actors/wi_ha_jun.jpg",
                     age = 31,
                     birthDate = "1991년 8월 5일"
                 ),
                 Actor(
                     id = 23,
                     name = "오영수",
-                    image = "/images/actors/oh_yeong_su.jpg",
+                    image = "/actors/oh_yeong_su.jpg",
                     age = 78,
                     birthDate = "1944년 10월 19일"
                 ),
                 Actor(
                     id = 24,
                     name = "정호연",
-                    image = "/images/actors/jung_ho_yeon.jpg",
+                    image = "/actors/jung_ho_yeon.jpg",
                     age = 28,
                     birthDate = "1994년 6월 23일"
                 ),
                 Actor(
                     id = 25,
                     name = "허성태",
-                    image = "/images/actors/heo_sung_tae.jpg",
+                    image = "/actors/heo_sung_tae.jpg",
                     age = 45,
                     birthDate = "1977년 10월 20일"
                 ),
                 Actor(
                     id = 26,
                     name = "김주령",
-                    image = "/images/actors/kim_joo_ryeong.jpg",
+                    image = "/actors/kim_joo_ryeong.jpg",
                     age = 46,
                     birthDate = "1976년 7월 15일"
                 ),
                 Actor(
                     id = 27,
                     name = "아누팜 트리파티",
-                    image = "/images/actors/anupam_tripathi.jpg",
+                    image = "/actors/anupam_tripathi.jpg",
                     age = 34,
                     birthDate = "1988년 11월 2일"
                 )
@@ -385,7 +385,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 8,
             title = "인터스텔라",
-            image = "/images/movies/inter_stellar.jpg",
+            image = "/movies/inter_stellar.jpg",
             openingDate = "2013",
             genre = listOf(
                 "SF",
@@ -406,21 +406,21 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 28,
                     name = "매튜 매커너히",
-                    image = "/images/actors/matthew_mc_conaughey.jpg",
+                    image = "/actors/matthew_mc_conaughey.jpg",
                     age = 53,
                     birthDate = "1969년 11월 4일"
                 ),
                 Actor(
                     id = 29,
                     name = "앤 해서웨이",
-                    image = "/images/actors/anne_hathaway.jpg",
+                    image = "/actors/anne_hathaway.jpg",
                     age = 40,
                     birthDate = "1982년 11월 12일"
                 ),
                 Actor(
                     id = 30,
                     name = "제시카 차스테인",
-                    image = "/images/actors/jessica_chastain.jpg",
+                    image = "/actors/jessica_chastain.jpg",
                     age = 45,
                     birthDate = "1977년 3월 24일"
                 )
@@ -432,7 +432,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 9,
             title = "퀸즈 갬빗",
-            image = "/images/movies/the_queen's_gambit.jpg",
+            image = "/movies/the_queen's_gambit.jpg",
             openingDate = "2020",
             genre = listOf(
                 "드라마"
@@ -444,14 +444,14 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 31,
                     name = "안야 테일러조이",
-                    image = "/images/actors/anya_taylor_joy.jpg",
+                    image = "/actors/anya_taylor_joy.jpg",
                     age = 26,
                     birthDate = "1996년 4월 16일"
                 ),
                 Actor(
                     id = 32,
                     name = "토머스 브로디생스터",
-                    image = "/images/actors/thomas_brodie_sangster.jpg",
+                    image = "/actors/thomas_brodie_sangster.jpg",
                     age = 32,
                     birthDate = "1990년 5월 16일"
                 )
@@ -466,7 +466,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 10,
             title = "알고 있지만,",
-            image = "/images/movies/nevertheless.jpg",
+            image = "/movies/nevertheless.jpg",
             openingDate = "2020",
             genre = listOf(
                 "드라마"
@@ -479,14 +479,14 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 15,
                     name = "한소희",
-                    image = "/images/actors/han_so_hee.jpg",
+                    image = "/actors/han_so_hee.jpg",
                     age = 28,
                     birthDate = "1994년 11월 18일"
                 ),
                 Actor(
                     id = 33,
                     name = "송강",
-                    image = "/images/actors/song_kang.jpg",
+                    image = "/actors/song_kang.jpg",
                     age = 28,
                     birthDate = "1994년 4월 23일"
                 )
@@ -498,7 +498,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 11,
             title = "슬기로운 의사생활",
-            image = "/images/movies/hospital_playlist.jpg",
+            image = "/movies/hospital_playlist.jpg",
             openingDate = "2020",
             genre = listOf(
                 "드라마",
@@ -515,35 +515,35 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 34,
                     name = "조정석",
-                    image = "/images/actors/cho_jung_seok.jpg",
+                    image = "/actors/cho_jung_seok.jpg",
                     age = 41,
                     birthDate = "1980년 12월 26일"
                 ),
                 Actor(
                     id = 35,
                     name = "김대명",
-                    image = "/images/actors/kim_dae_myeung.jpg",
+                    image = "/actors/kim_dae_myeung.jpg",
                     age = 41,
                     birthDate = "1981년 2월 16일"
                 ),
                 Actor(
                     id = 36,
                     name = "전미도",
-                    image = "/images/actors/jeon_mi_do.jpg",
+                    image = "/actors/jeon_mi_do.jpg",
                     age = 40,
                     birthDate = "1982년 8월 4일"
                 ),
                 Actor(
                     id = 37,
                     name = "정경호",
-                    image = "/images/actors/jung_kyung_ho.jpg",
+                    image = "/actors/jung_kyung_ho.jpg",
                     age = 39,
                     birthDate = "1983년 8월 31일"
                 ),
                 Actor(
                     id = 20,
                     name = "유연석",
-                    image = "/images/actors/yoo_yeon_seok.jpg",
+                    image = "/actors/yoo_yeon_seok.jpg",
                     age = 38,
                     birthDate = "1984년 4월 11일"
                 )
@@ -555,7 +555,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 12,
             title = "D.P.",
-            image = "/images/movies/dp.jpg",
+            image = "/movies/dp.jpg",
             openingDate = "2020",
             genre = listOf(
                 "드라마",
@@ -569,28 +569,28 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 38,
                     name = "정해인",
-                    image = "/images/actors/jung_hae_in.jpg",
+                    image = "/actors/jung_hae_in.jpg",
                     age = 34,
                     birthDate = "1988년 4월 1일"
                 ),
                 Actor(
                     id = 39,
                     name = "구교환",
-                    image = "/images/actors/koo_kyo_hwan.jpg",
+                    image = "/actors/koo_kyo_hwan.jpg",
                     age = 40,
                     birthDate = "1982년 12월 14일"
                 ),
                 Actor(
                     id = 40,
                     name = "김성균",
-                    image = "/images/actors/kim_sung_kyun.jpg",
+                    image = "/actors/kim_sung_kyun.jpg",
                     age = 42,
                     birthDate = "1980년 7월 5일"
                 ),
                 Actor(
                     id = 41,
                     name = "손석구",
-                    image = "/images/actors/son_suk_ku.jpg",
+                    image = "/actors/son_suk_ku.jpg",
                     age = 39,
                     birthDate = "1983년 2월 7일"
                 )
@@ -606,7 +606,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 13,
             title = "인간수업",
-            image = "/images/movies/extra_curricular.jpg",
+            image = "/movies/extra_curricular.jpg",
             openingDate = "2020",
             genre = listOf(
                 "범죄",
@@ -621,28 +621,28 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 42,
                     name = "김동희",
-                    image = "/images/actors/kim_dong_hee.jpg",
+                    image = "/actors/kim_dong_hee.jpg",
                     age = 23,
                     birthDate = "1999년 6월 13일"
                 ),
                 Actor(
                     id = 43,
                     name = "박주현",
-                    image = "/images/actors/park_ju_hyun.jpg",
+                    image = "/actors/park_ju_hyun.jpg",
                     age = 28,
                     birthDate = "1994년 10월 5일"
                 ),
                 Actor(
                     id = 44,
                     name = "정다빈",
-                    image = "/images/actors/jung_da_bin.jpg",
+                    image = "/actors/jung_da_bin.jpg",
                     age = 22,
                     birthDate = "2000년 4월 25일"
                 ),
                 Actor(
                     id = 45,
                     name = "남윤수",
-                    image = "/images/actors/nam_yoon_su.jpg",
+                    image = "/actors/nam_yoon_su.jpg",
                     age = 25,
                     birthDate = "1997년 7월 14일"
                 ),
@@ -654,7 +654,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 14,
             title = "슈룹",
-            image = "/images/movies/under_the_queen's_umbrella.jpg",
+            image = "/movies/under_the_queen's_umbrella.jpg",
             openingDate = "2022",
             genre = listOf(
                 "드라마",
@@ -671,21 +671,21 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 46,
                     name = "김혜수",
-                    image = "/images/actors/kim_hye_soo.jpg",
+                    image = "/actors/kim_hye_soo.jpg",
                     age = 52,
                     birthDate = "1970년 9월 5일"
                 ),
                 Actor(
                     id = 47,
                     name = "김해숙",
-                    image = "/images/actors/kim_hae_sook.jpg",
+                    image = "/actors/kim_hae_sook.jpg",
                     age = 66,
                     birthDate = "1955년 12월 30일"
                 ),
                 Actor(
                     id = 48,
                     name = "최원영",
-                    image = "/images/actors/choi_won_young.jpg",
+                    image = "/actors/choi_won_young.jpg",
                     age = 46,
                     birthDate = "1976년 1월 10일"
                 )
@@ -697,7 +697,7 @@ class MovieRepositoryImpl : MovieRepository {
         Movie(
             id = 15,
             title = "20세기 소녀",
-            image = "/images/movies/20th_century_girl.jpg",
+            image = "/movies/20th_century_girl.jpg",
             openingDate = "2021",
             genre = listOf(
                 "드라마",
@@ -712,28 +712,28 @@ class MovieRepositoryImpl : MovieRepository {
                 Actor(
                     id = 49,
                     name = "김유정",
-                    image = "/images/actors/kim_you_jung.jpg",
+                    image = "/actors/kim_you_jung.jpg",
                     age = 23,
                     birthDate = "1999년 9월 22일"
                 ),
                 Actor(
                     id = 50,
                     name = "변우석",
-                    image = "/images/actors/byeon_woo_seok.jpg",
+                    image = "/actors/byeon_woo_seok.jpg",
                     age = 31,
                     birthDate = "1991년 10월 31일"
                 ),
                 Actor(
                     id = 51,
                     name = "박정우",
-                    image = "/images/actors/park_jung_woo.jpg",
+                    image = "/actors/park_jung_woo.jpg",
                     age = 26,
                     birthDate = "1996년 1월 19일"
                 ),
                 Actor(
                     id = 52,
                     name = "노윤서",
-                    image = "/images/actors/roh_yoon_seo.jpg",
+                    image = "/actors/roh_yoon_seo.jpg",
                     age = 22,
                     birthDate = "2000년 1월 25일"
                 )

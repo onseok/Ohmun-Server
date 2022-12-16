@@ -1,16 +1,23 @@
 package com.example.plugins
 
+import com.example.routes.getAllMovies
+import com.example.routes.root
+import com.example.routes.searchMovies
 import io.ktor.server.routing.*
-import io.ktor.http.*
 import io.ktor.server.application.*
-import io.ktor.server.response.*
-import io.ktor.server.request.*
+import io.ktor.server.http.content.*
 
 fun Application.configureRouting() {
-
     routing {
-        get("/") {
-            call.respondText("Hello World!")
+        root()
+        getAllMovies()
+        searchMovies()
+
+        static("/movies") {
+            resources("movies")
+        }
+        static("/actors") {
+            resources("actors")
         }
     }
 }
