@@ -1,14 +1,6 @@
 package com.example
 
-import io.ktor.server.plugins.callloging.*
-import org.slf4j.event.*
-import io.ktor.server.request.*
-import io.ktor.server.routing.*
 import io.ktor.http.*
-import io.ktor.serialization.kotlinx.json.*
-import io.ktor.server.plugins.contentnegotiation.*
-import io.ktor.server.application.*
-import io.ktor.server.response.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import kotlin.test.*
@@ -17,13 +9,21 @@ import com.example.plugins.*
 
 class ApplicationTest {
     @Test
-    fun testRoot() = testApplication {
+    fun `루트 엔드포인트를 테스트합니다`() = testApplication {
         application {
             configureRouting()
         }
         client.get("/").apply {
             assertEquals(HttpStatusCode.OK, status)
-            assertEquals("Hello World!", bodyAsText())
+            assertEquals("오늘의 문화 API에 오신 것을 환영합니다!", bodyAsText())
+        }
+    }
+
+    @Test
+    fun `존재하지 않는 엔드 포인트에 접근하는 테스트를 합니다`() = testApplication {
+        client.get("/unknown").apply {
+            assertEquals(HttpStatusCode.NotFound, status)
+            assertEquals("Page not Found.", bodyAsText())
         }
     }
 }
