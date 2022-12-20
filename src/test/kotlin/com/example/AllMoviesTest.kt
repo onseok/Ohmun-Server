@@ -52,15 +52,16 @@ class AllMoviesTest {
             client.get("/ohmun/movies?page=$page").apply {
                 println("CURRENT PAGE: $page")
                 assertEquals(HttpStatusCode.OK, status)
+                val actual = Json.decodeFromString<MovieResponse>(body())
                 val expected = MovieResponse(
                     success = true,
                     message = "ok",
                     prevPage = calculatePage(page = page)["prevPage"],
                     nextPage = calculatePage(page = page)["nextPage"],
-                    movies = movies[page - 1]
+                    movies = movies[page - 1],
+                    lastUpdated = actual.lastUpdated
                 )
 
-                val actual = Json.decodeFromString<MovieResponse>(body())
                 println("PREVIOUS PAGE: ${calculatePage(page = page)["prevPage"]}")
                 println("NEXT PAGE: ${calculatePage(page = page)["nextPage"]}")
                 println("HEROES: ${movies[page - 1]}")
