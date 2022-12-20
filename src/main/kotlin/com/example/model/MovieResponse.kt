@@ -8,5 +8,6 @@ data class MovieResponse(
     val message: String? = null,
     val prevPage: Int? = null,
     val nextPage: Int? = null,
-    val movies: List<Movie> = emptyList()
+    val movies: List<Movie> = emptyList(),
+    val lastUpdated: Long? = null
 )

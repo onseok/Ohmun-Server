@@ -751,7 +751,8 @@ class MovieRepositoryImpl : MovieRepository {
             message = "ok",
             prevPage = calculatePage(page = page)[PREVIOUS_PAGE_KEY],
             nextPage = calculatePage(page = page)[NEXT_PAGE_KEY],
-            movies = movies[page]!!
+            movies = movies[page]!!,
+            lastUpdated = System.currentTimeMillis()
         )
     }
 
